@@ -326,3 +326,117 @@ section {
     .main-header nav a { margin: 0 0.5rem; }
     .skills-container, .project-grid { grid-template-columns: 1fr; }
 }
+
+/* --- Passions Page --- */
+
+.passions-main {
+    padding: 2rem 0;
+}
+
+.passions-header {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.passions-header h1 {
+    font-size: 3.5rem;
+}
+
+.passion-content-box {
+    max-width: 800px;
+    margin: 2rem auto 3rem auto;
+    text-align: center;
+}
+
+.passions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.passions-grid figure {
+    margin: 0;
+    background: var(--box-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.passions-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.passions-grid figcaption {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--secondary-text);
+    text-align: center;
+}
+
+.cat-grid img {
+    height: 300px; /* A bit taller for the cats */
+}
+
+blockquote {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding-left: 2rem;
+    border-left: 4px solid var(--accent);
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--secondary-text);
+}
+
+blockquote footer {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--primary-text);
+}
+
+.audio-container {
+    background: var(--box-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1.5rem;
+    max-width: 700px;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+.audio-container p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.audio-container audio {
+    width: 100%;
+}
+
+.poem-container {
+    background: var(--box-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.poem-container h3 {
+    color: var(--accent);
+    text-align: center;
+}
+
+.poem-container pre {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--secondary-text);
+    margin-top: 1rem;
+    text-align: center;
+}
