@@ -141,59 +141,67 @@ section {
     margin-bottom: 1rem;
 }
 
-/* --- Experience Timeline --- */
+/* --- Experience Timeline (FINAL GRID METHOD V3) --- */
 .timeline {
-    position: relative;
-    max-width: 850px;
+    display: grid;
+    /* Create 3 columns: left content | Line | right content */
+    grid-template-columns: 1fr 2px 1fr;
+    max-width: 900px;
     margin: 0 auto;
-}
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background-color: var(--border-color);
-    top: 15px;
-    bottom: 15px;
-    left: 50%;
-    margin-left: -1px;
-}
-.timeline-item {
-    padding: 1rem 3rem;
     position: relative;
-    width: 50%;
-}
-.timeline-item:nth-child(odd) {
-    left: 0;
-}
-.timeline-item:nth-child(even) {
-    left: 50%;
-}
-.timeline-logo {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: #FFFFFF;
-    border: 3px solid var(--primary-bg);
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-    object-fit: contain;
 }
 
-/* === THIS IS THE NEW, MORE ROBUST FIX === */
-.timeline-item:nth-child(odd) .timeline-logo {
-    left: 100%; /* Position the logo at the right edge of the container */
-    margin-left: -20px; /* Pull it back by half its own width */
+/* This is the line */
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px; /* Start after the first logo's center */
+    bottom: 20px; /* End before the last logo's center */
+    width: 2px;
+    background-color: var(--border-color);
+    z-index: 0; /* Place it behind the logos */
 }
-.timeline-item:nth-child(even) .timeline-logo {
-    left: 0; /* Position the logo at the left edge of the container */
-    margin-left: -20px; /* Pull it back by half its own width */
+
+.timeline-item {
+    position: relative;
+    padding: 0 0 3rem 0;
 }
-/* === END OF FIX === */
 
 .timeline-content {
     position: relative;
+    margin: 0 2rem;
 }
+
+/* --- THIS IS THE CRITICAL FIX --- */
+/* The line is child 1, so the first ITEM is child 2 */
+.timeline-item:nth-child(2) { grid-row: 1; } /* Google */
+.timeline-item:nth-child(3) { grid-row: 2; } /* Georgia Tech */
+.timeline-item:nth-child(4) { grid-row: 3; } /* Travelers */
+.timeline-item:nth-child(5) { grid-row: 4; } /* PSEO */
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+/* EVEN children (Google, Travelers) are now the LEFT items */
+.timeline-item:nth-child(even) {
+    grid-column: 1;
+}
+/* ODD children (Georgia Tech, PSEO) are now the RIGHT items */
+.timeline-item:nth-child(odd) {
+    grid-column: 3;
+}
+/* Logo positioning must also be swapped */
+.timeline-item:nth-child(even) .timeline-logo {
+    right: 0;
+    transform: translateX(50%);
+}
+.timeline-item:nth-child(odd) .timeline-logo {
+    left: 0;
+    transform: translateX(-50%);
+}
+/* --- END OF FIX --- */
+
 .timeline-header {
     display: flex;
     justify-content: space-between;
@@ -221,23 +229,42 @@ section {
     margin-bottom: 0.5rem;
     color: var(--secondary-text);
 }
+.timeline-logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 3px solid var(--primary-bg);
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+    object-fit: contain;
+}
 
-/* --- Responsive Adjustments for Timeline --- */
-@media (max-width: 992px) {
-    .timeline::after {
-        left: 20px;
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .timeline {
+        grid-template-columns: 20px 1fr;
+    }
+    .timeline-line {
+        grid-column: 1;
+        justify-self: center;
     }
     .timeline-item {
-        width: 100%;
-        padding-left: 60px;
-        padding-right: 15px;
+        padding: 0 0 2rem 2rem;
     }
-    .timeline-item:nth-child(odd), .timeline-item:nth-child(even) {
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        grid-column: 2; /* All items in the second column */
+    }
+    .timeline-content {
+        margin: 0;
+    }
+    .timeline-logo,
+    .timeline-item:nth-child(odd) .timeline-logo,
+    .timeline-item:nth-child(even) .timeline-logo {
         left: 0;
-    }
-    .timeline-logo, .timeline-item:nth-child(odd) .timeline-logo, .timeline-item:nth-child(even) .timeline-logo {
-        left: 0; /* Position all logos on the left line */
-        margin-left: 0; /* Reset the margin from the desktop style */
+        transform: translateX(-50%);
     }
     .timeline-header {
        flex-direction: column;
