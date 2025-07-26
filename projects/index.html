@@ -1,147 +1,95 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Projects &#8211; Ansel K Erol's Portfolio</title>
-	<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.4.2" media="all">
-	<style>
-		/* (Retaining original CSS from your provided file for brevity) */
-		body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #f9f9f9;--wp--preset--color--base-2: #ffffff;--wp--preset--color--contrast: #111111;--wp--preset--color--contrast-2: #636363;--wp--preset--color--contrast-3: #A4A4A4;--wp--preset--color--accent: #cfcabe;--wp--preset--color--accent-2: #c2a990;--wp--preset--color--accent-3: #d8613c;--wp--preset--color--accent-4: #b1c5a4;--wp--preset--color--accent-5: #b5bdbc;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 0.9rem;--wp--preset--font-size--medium: 1.05rem;--wp--preset--font-size--large: clamp(1.39rem, 1.39rem + ((1vw - 0.2rem) * 0.767), 1.85rem);--wp--preset--font-size--x-large: clamp(1.85rem, 1.85rem + ((1vw - 0.2rem) * 1.083), 2.5rem);--wp--preset--font-size--xx-large: clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 1.283), 3.27rem);--wp--preset--font-family--body: "Inter", sans-serif;--wp--preset--font-family--heading: Cardo;--wp--preset--spacing--10: 1rem;--wp--preset--spacing--20: min(1.5rem, 2vw);--wp--preset--spacing--30: min(2.5rem, 3vw);--wp--preset--spacing--40: min(4rem, 5vw);--wp--preset--spacing--50: min(6.5rem, 8vw);--wp--preset--spacing--60: min(10.5rem, 13vw);}body { margin: 0; background-color: var(--wp--preset--color--base); color: var(--wp--preset--color--contrast); font-family: var(--wp--preset--font-family--body); font-size: var(--wp--preset--font-size--medium); line-height: 1.55;}.wp-site-blocks { padding-top: 0; padding-bottom: 0; } ul.is-style-checkmark-list{list-style-type:"\2713";} ul.is-style-checkmark-list li{padding-inline-start:1ch;}
-	</style>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Cardo:wght@400;700&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Ansel K Erol</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="logo"><a href="../index.html">A.K.E.</a></div>
+            <nav>
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#experience">Experience</a>
+                <a href="index.html" class="active">Projects</a>
+                <a href="mailto:aerol3@gatech.edu" class="button">Contact</a>
+            </nav>
+        </header>
 
-<body class="page-template-default page page-id-23 wp-embed-responsive">
+        <main class="projects-main">
+            <div class="projects-header">
+                <h2>Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my work in AI, systems, and full-stack development.</p>
+            </div>
+            <div class="project-grid">
 
-<div class="wp-site-blocks">
-<header class="wp-block-template-part">
-	<div class="wp-block-group alignwide" style="padding-top:20px;padding-bottom:20px">
-		<div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex">
-			<div class="wp-block-group is-layout-flex">
-				<p class="wp-block-site-title"><a href="/" rel="home">Ansel K Erol's Portfolio</a></p>
-			</div>
-			<nav class="is-responsive items-justified-right wp-block-navigation is-horizontal is-layout-flex">
-				<ul class="wp-block-navigation__container">
-					<li class="wp-block-navigation-item current-menu-item"><a class="wp-block-navigation-item__content" href="/projects" aria-current="page"><span class="wp-block-navigation-item__label">Projects</span></a></li>
-					<li class="wp-block-navigation-item"><a class="wp-block-navigation-item__content" href="/my-passions"><span class="wp-block-navigation-item__label">Passions</span></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</header>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="../images/project_melodex_ui.png" alt="MeloDEX Project">
+                            <h3>MeloDEX</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>MeloDEX</h3>
+                            <p>AI-powered search engine to find songs by mood. Features vector search, relational filtering, and a sleek React UI with Spotify/Apple Music integration.</p>
+                            <div class="tags"><span>Vector Search</span><span>React</span><span>AI/ML</span></div>
+                        </div>
+                    </div>
+                </div>
 
-<main class="wp-block-group is-layout-flow">
-	<div class="wp-block-group has-global-padding is-layout-constrained">
-		<div style="height:var(--wp--preset--spacing--50)" class="wp-block-spacer"></div>
-		<h1 class="has-text-align-center wp-block-post-title">Featured Projects</h1>
-		<div style="height:var(--wp--preset--spacing--30)" class="wp-block-spacer"></div>
-	</div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="../images/project_shopease_platform.png" alt="ShopEase Project">
+                            <h3>ShopEase</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>ShopEase</h3>
+                            <p>Microservices e-commerce platform with a Spring Boot backend. Provides secure product management and order tracking via OAuth 2.0, deployed on AWS.</p>
+                             <div class="tags"><span>Java</span><span>Spring</span><span>AWS</span></div>
+                        </div>
+                    </div>
+                </div>
 
-	<div class="entry-content wp-block-post-content has-global-padding is-layout-constrained">
-		<div class="wp-block-group alignfull" style="padding:var(--wp--preset--spacing--50);">
-			<div class="wp-block-group alignwide">
-				<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex">
-					<p class="has-text-align-center">A selection of projects demonstrating my skills in AI/ML, distributed systems, and full-stack development. For more technical details and source code, please visit my GitHub.</p>
-					<div class="wp-block-buttons is-layout-flex is-content-justification-center">
-						<div class="wp-block-button"><a class="wp-block-button__link" href="https://github.com/A-K-Erol">GitHub</a></div>
-					</div>
-				</div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="../images/project_workforce_scheduling_graph.png" alt="Workforce Scheduling Project">
+                            <h3>Workforce Scheduling</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Workforce Scheduling</h3>
+                            <p>Gradient-boosting classifier that predicts the optimal algorithm for complex scheduling problems, achieving 40% higher performance. Co-author paper in review.</p>
+                             <div class="tags"><span>Python</span><span>Scikit-learn</span><span>Research</span></div>
+                        </div>
+                    </div>
+                </div>
 
-				<div style="height:var(--wp--preset--spacing--40)" class="wp-block-spacer"></div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="../images/project_fundraising_suite.png" alt="Fundraising Suite Project">
+                            <h3>Fundraising Suite</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Fundraising Suite</h3>
+                            <p>A tool leveraging RAG to generate org-specific content for grant-writing. Packaged as a React/Flask app and served on Google Cloud Platform.</p>
+                             <div class="tags"><span>RAG</span><span>LLM</span><span>GCP</span></div>
+                        </div>
+                    </div>
+                </div>
 
-				<div class="wp-block-columns alignwide">
-					<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-						<h3 class="wp-block-heading is-style-asterisk">MeloDEX</h3>
-						<p>An AI-powered music discovery platform that allows users to find songs by describing a mood, style, or feeling.</p>
-						<ul style="line-height:1.75" class="is-style-checkmark-list">
-							<li>Utilizes efficient vector search for semantic querying.</li>
-							<li>Incorporates relational filtering for genre, artist, and year.</li>
-							<li>Features a sleek ReactJS UI with Spotify/Apple Music integration.</li>
-						</ul>
-					</div>
-					<div class="wp-block-column" style="flex-basis:40%">
-						<figure class="wp-block-image is-style-rounded"><img src="/images/project_melodex_ui.png" alt="UI screenshot of MeloDEX project"></figure>
-					</div>
-				</div>
-
-				<div style="height:var(--wp--preset--spacing--40)" class="wp-block-spacer"></div>
-				
-				<div class="wp-block-columns alignwide">
-                    <div class="wp-block-column" style="flex-basis:40%">
-						<figure class="wp-block-image is-style-rounded"><img src="/images/project_shopease_platform.png" alt="Architecture diagram of ShopEase project"></figure>
-					</div>
-					<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-						<h3 class="wp-block-heading is-style-asterisk">ShopEase</h3>
-						<p>A resilient, microservices-based e-commerce platform built for scalability and security.</p>
-						<ul style="line-height:1.75" class="is-style-checkmark-list">
-							<li>Java (Spring) backend for product and order management.</li>
-							<li>Secure authentication and authorization via OAuth 2.0.</li>
-							<li>Deployed on AWS using Lambda functions and RDS (Postgres).</li>
-						</ul>
-					</div>
-				</div>
-
-				<div style="height:var(--wp--preset--spacing--40)" class="wp-block-spacer"></div>
-
-				<div class="wp-block-columns alignwide">
-					<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-						<h3 class="wp-block-heading is-style-asterisk">Workforce Scheduling and Routing</h3>
-						<p>A meta-learning model that selects the optimal algorithm for complex scheduling problems under runtime constraints.</p>
-						<ul style="line-height:1.75" class="is-style-checkmark-list">
-							<li>Gradient-boosting classifier achieves 40% higher performance than any single algorithm.</li>
-							<li>Trains on a dataset of problem instances and algorithm performance.</li>
-							<li>Resulting co-authored research paper is currently in review.</li>
-						</ul>
-					</div>
-					<div class="wp-block-column" style="flex-basis:40%">
-						<figure class="wp-block-image is-style-rounded"><img src="/images/project_workforce_scheduling_graph.png" alt="Performance graph of workforce scheduling project"></figure>
-					</div>
-				</div>
-
-				<div style="height:var(--wp--preset--spacing--40)" class="wp-block-spacer"></div>
-
-				<div class="wp-block-columns alignwide">
-                    <div class="wp-block-column" style="flex-basis:40%">
-						<figure class="wp-block-image is-style-rounded"><img src="/images/project_fundraising_suite.png" alt="Screenshot of the Fundraising Utility Suite application"></figure>
-					</div>
-					<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-						<h3 class="wp-block-heading is-style-asterisk">Fundraising Utility Suite</h3>
-						<p>An intelligent tool designed to streamline grant-writing and marketing for non-profits.</p>
-						<ul style="line-height:1.75" class="is-style-checkmark-list">
-							<li>Leverages Retrieval-Augmented Generation (RAG) to create organization-specific content.</li>
-							<li>Packaged into a user-friendly ReactJS and Flask application.</li>
-							<li>Served via Google Cloud Platform for reliability.</li>
-						</ul>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-</main>
-
-<footer class="wp-block-template-part">
-	<div class="wp-block-group" style="padding:var(--wp--preset--spacing--50);">
-		<div class="wp-block-columns alignwide">
-			<div class="wp-block-column" style="flex-basis:30%">
-				<div class="wp-block-group is-vertical is-layout-flex">
-					<p class="wp-block-site-title"><a href="/" rel="home">Ansel K Erol's Portfolio</a></p>
-					<p class="wp-block-site-tagline">A personal website to showcase technical skills and passions.</p>
-				</div>
-			</div>
-			<div class="wp-block-column" style="flex-basis:50%">
-				<div class="wp-block-group is-content-justification-space-between is-layout-flex">
-					<div class="wp-block-group is-vertical is-layout-flex">
-						<h4 class="wp-block-heading">Contact</h4>
-					</div>
-				</div>
-				<p>Don’t hesitate to get in touch with me via <a href="https://linkedin.com/in/ansel-erol">LinkedIn</a> or by emailing me at <a href="mailto:aerol3@gatech.edu">aerol3@gatech.edu</a>.</p>
-			</div>
-		</div>
-	</div>
-</footer>
-</div>
-
+            </div>
+        </main>
+        
+        <footer class="main-footer">
+            <p>Designed & Built by Ansel K Erol | © 2024</p>
+        </footer>
+    </div>
 </body>
 </html>
