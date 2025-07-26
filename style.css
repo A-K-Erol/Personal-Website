@@ -168,31 +168,39 @@ section {
 .timeline-item:nth-child(even) {
     left: 50%;
 }
-.timeline-dot {
-    content: '';
+
+/* This is the new logo styling */
+.timeline-logo {
     position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color: var(--accent);
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
     border: 3px solid var(--primary-bg);
     top: 28px;
     border-radius: 50%;
     z-index: 1;
+    object-fit: contain;
 }
-.timeline-item:nth-child(odd) .timeline-dot {
-    right: -8px;
+
+/* This is the alignment fix */
+.timeline-item:nth-child(odd) .timeline-logo {
+    right: -16px; /* Correctly positions logo for left items */
 }
-.timeline-item:nth-child(even) .timeline-dot {
-    left: -8px;
+.timeline-item:nth-child(even) .timeline-logo {
+    left: -16px; /* Correctly positions logo for right items */
 }
+
 .timeline-date {
     position: absolute;
-    top: 22px;
+    top: 32px;
     color: var(--secondary-text);
     font-weight: 600;
+    font-size: 0.9rem;
+    z-index: 1;
 }
 .timeline-item:nth-child(odd) .timeline-date {
     right: 4rem;
+    text-align: right;
 }
 .timeline-item:nth-child(even) .timeline-date {
     left: 4rem;
@@ -276,6 +284,7 @@ section {
 .flip-card-front h3 {
     position: absolute;
     font-size: 1.5rem;
+    color: #1A1A1A;
 }
 .flip-card-back {
     background-color: var(--accent);
