@@ -179,12 +179,18 @@ section {
     z-index: 1;
     object-fit: contain;
 }
+
+/* === THIS IS THE NEW, MORE ROBUST FIX === */
 .timeline-item:nth-child(odd) .timeline-logo {
-    right: -20px;
+    left: 100%; /* Position the logo at the right edge of the container */
+    margin-left: -20px; /* Pull it back by half its own width */
 }
 .timeline-item:nth-child(even) .timeline-logo {
-    left: -20px;
+    left: 0; /* Position the logo at the left edge of the container */
+    margin-left: -20px; /* Pull it back by half its own width */
 }
+/* === END OF FIX === */
+
 .timeline-content {
     position: relative;
 }
@@ -216,9 +222,8 @@ section {
     color: var(--secondary-text);
 }
 
-/* --- Responsive Adjustments --- */
+/* --- Responsive Adjustments for Timeline --- */
 @media (max-width: 992px) {
-    /* ... (other responsive rules) ... */
     .timeline::after {
         left: 20px;
     }
@@ -231,7 +236,8 @@ section {
         left: 0;
     }
     .timeline-logo, .timeline-item:nth-child(odd) .timeline-logo, .timeline-item:nth-child(even) .timeline-logo {
-        left: 0;
+        left: 0; /* Position all logos on the left line */
+        margin-left: 0; /* Reset the margin from the desktop style */
     }
     .timeline-header {
        flex-direction: column;
