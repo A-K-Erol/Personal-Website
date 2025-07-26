@@ -133,7 +133,7 @@ section {
     width: 200px; /* Adjust as needed */
     height: 200px;
     border-radius: 50%;
-    background: url('path-to-your-image.jpg') center/cover; /* Replace with your image */
+    background: url('images/your-photo.jpg') center/cover; /* Replace with your image */
     background-color: var(--accent);
     flex-shrink: 0;
 }
