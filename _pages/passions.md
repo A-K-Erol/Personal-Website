@@ -1,6 +1,6 @@
 ---
 layout: page
-title: passions
+title: Passions
 permalink: /passions/
 description: A few of the things that inspire and drive me outside of technology.
 nav: true

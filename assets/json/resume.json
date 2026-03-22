@@ -1,221 +1,237 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ansel K. Erol",
+    "label": "BS/MS Computer Science, Georgia Institute of Technology",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "",
+    "phone": "",
+    "summary": "BS/MS Computer Science student at Georgia Tech (graduating May 2026) specializing in high-performance systems, distributed ML inference, and real-time data processing at scale. Incoming Forward Deployed Software Engineer at Baseten Labs.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Atlanta",
+      "region": "Georgia",
+      "countryCode": "US"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "A-K-Erol",
+        "url": "https://github.com/A-K-Erol"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ansel-erol",
+        "url": "https://linkedin.com/in/ansel-erol"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
-    },
-    {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
+      "name": "Baseten Labs",
+      "position": "Forward Deployed Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "2026-06-01",
+      "endDate": "",
+      "summary": "Incoming full-time role at a $300M Series E ML infrastructure company.",
       "highlights": []
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
+      "name": "Georgia Institute of Technology",
+      "position": "Graduate Teaching Assistant — CS 3600: Artificial Intelligence",
+      "location": "Atlanta, GA",
+      "startDate": "2025-08-01",
+      "endDate": "2026-05-01",
+      "summary": "Teaching assistant for the undergraduate AI course.",
       "highlights": []
     },
     {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "volunteer": [
+      "name": "Google",
+      "position": "Software Engineering Intern",
+      "location": "Mountain View, CA",
+      "startDate": "2025-05-01",
+      "endDate": "2025-08-01",
+      "summary": "Optimized gRPC networking for a low-latency C++ inference system serving private ML ad infrastructure.",
+      "highlights": [
+        "Reduced deployment costs significantly through profiling and protocol-level optimizations",
+        "Improved model serving throughput for high-QPS production traffic"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Georgia Institute of Technology — SCAI Lab",
+      "position": "Undergraduate/Graduate Research Assistant",
+      "location": "Atlanta, GA",
+      "startDate": "2024-01-01",
+      "endDate": "2026-05-01",
+      "summary": "Research on ML inference at the edge for satellite systems and efficient MoE model serving, advised by Dr. Divya Mahajan.",
+      "highlights": [
+        "First author on EarthSight (MLSys 2026, to appear) — distributed framework for low-latency satellite intelligence",
+        "Presented at MLSys Young Professional's Symposium (2025), GT Undergraduate Research Symposium (2025), and CRNCH Summit (2026)",
+        "Recipient of the President's Undergraduate Research Award (PURA)"
+      ]
+    },
+    {
+      "name": "Travelers Insurance",
+      "position": "Software Engineering Intern",
+      "location": "Hartford, CT (remote)",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-01",
+      "summary": "Built data pipelines and dashboards on AWS S3 for cloud infrastructure teams.",
+      "highlights": []
+    },
+    {
+      "name": "People for PSEO",
+      "position": "Finance Director & Board Member",
+      "location": "Minnesota",
+      "startDate": "2022-09-01",
+      "endDate": "2025-08-01",
+      "summary": "Led grant and donor initiatives for a Minnesota non-profit advocating for dual-enrollment (PSEO) students.",
+      "highlights": [
+        "Grew the organization's annual budget through new grant and donor relationships"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
-    },
-    {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
+      "institution": "Georgia Institute of Technology",
+      "location": "Atlanta, GA",
+      "url": "https://www.gatech.edu/",
+      "area": "Computer Science — Machine Learning",
+      "studyType": "MS",
+      "startDate": "2025-08-01",
+      "endDate": "2026-05-01",
       "score": "",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "highlights": ["Concentration: Machine Learning"]
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
+      "institution": "Georgia Institute of Technology",
+      "location": "Atlanta, GA",
+      "url": "https://www.gatech.edu/",
+      "area": "Computer Science — Intelligence & Info Networks",
+      "studyType": "BS",
+      "startDate": "2022-08-01",
+      "endDate": "2026-05-01",
+      "score": "",
+      "courses": [],
+      "highlights": [
+        "Concentration: Intelligence & Information Internetworks",
+        "National Merit Scholar",
+        "Faculty Honors",
+        "43 dual-enrollment credits via PSEO at University of Minnesota"
+      ]
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "EarthSight: A Distributed Framework for Low-Latency Satellite Intelligence",
+      "publisher": "Annual Conference on Machine Learning and Systems (MLSys 2026)",
+      "releaseDate": "2026-05-01",
+      "url": "",
+      "summary": "To appear. First author. Also presented at GT UG Research Symposium (Apr 2025), MLSys Young Professional's Symposium (May 2025), and CRNCH Summit (Feb 2026)."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Efficient Scheduling for Low-latency Satellite Intelligence",
+      "publisher": "Georgia Institute of Technology Thesis Repository",
+      "releaseDate": "2025-05-01",
+      "url": "",
+      "summary": "MS thesis. Solo author."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Trust by Design: Skill Profiles for Transparent, Cost-Aware LLM Routing",
+      "publisher": "MLSys Young Professional's Symposium (2025)",
+      "releaseDate": "2025-05-01",
+      "url": "",
+      "summary": "Co-authored with M. Okamoto and G. Matlin."
+    },
+    {
+      "name": "A Holistic Approach to Workforce Scheduling and Routing",
+      "publisher": "",
+      "releaseDate": "2024-01-01",
+      "url": "",
+      "summary": "Co-authored with C. K. Manalp, K. Erol, and C. Evrendilek."
+    }
+  ],
+  "awards": [
+    {
+      "title": "President's Undergraduate Research Award (PURA)",
+      "date": "2024-01-01",
+      "awarder": "Georgia Institute of Technology",
+      "summary": "Awarded for undergraduate research contributions."
+    },
+    {
+      "title": "National Merit Scholar",
+      "date": "2022-01-01",
+      "awarder": "National Merit Scholarship Corporation",
+      "summary": ""
+    },
+    {
+      "title": "USA Gold Medal in Voice",
+      "date": "2016-01-01",
+      "awarder": "Royal Conservatory of Music",
+      "summary": "Highest score in the United States for the Voice discipline."
+    },
+    {
+      "title": "MN Economics Challenge Champion",
+      "date": "2022-01-01",
+      "awarder": "Minnesota Council on Economic Education",
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Languages",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C++", "Java", "C", "SQL", "JavaScript", "Bash"]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "level": "",
+      "icon": "fa-solid fa-wrench",
+      "keywords": ["PyTorch", "TensorFlow", "Scikit-learn", "React", "Flask", "Spring", "PostgreSQL"]
+    },
+    {
+      "name": "Infrastructure",
+      "level": "",
+      "icon": "fa-solid fa-server",
+      "keywords": ["Docker", "Git", "Linux", "GCP", "AWS", "Azure"]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Turkish",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "name": "Music & Performance",
+      "icon": "fa-solid fa-music",
+      "keywords": ["Classical violin (15 years)", "Opera & vocal performance", "Royal Conservatory of Music"]
     },
     {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
+      "name": "Travel",
+      "icon": "fa-solid fa-plane",
+      "keywords": ["Turkey", "Ancient history & ruins"]
+    },
+    {
+      "name": "Pastry & Food",
+      "icon": "fa-solid fa-cake-candles",
+      "keywords": ["Baklava", "Patisserie"]
+    },
+    {
+      "name": "Poetry",
+      "icon": "fa-solid fa-pen-nib",
+      "keywords": ["Original works"]
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
-    }
-  ]
+  "references": [],
+  "projects": [],
+  "volunteer": [],
+  "certificates": []
 }
