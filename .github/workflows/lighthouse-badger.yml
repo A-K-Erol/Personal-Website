@@ -22,11 +22,7 @@ env:
 
 # TRIGGERS
 on:
-  page_build:
-  # schedule: # Check your schedule here => https://crontab.guru/
-  #   - cron: '55 23 * * 0' # e.g. every Sunday at 23:55
-  #
-  # THAT'S IT; YOU'RE DONE;
+  # Disabled automatic triggers — requires LIGHTHOUSE_BADGER_TOKEN secret to run
   workflow_dispatch:
 
 ########################################################################
