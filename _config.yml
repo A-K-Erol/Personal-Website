@@ -14,7 +14,7 @@ description: >
 footer_text: >
 keywords: systems, distributed computing, machine learning, Georgia Tech, software engineering
 lang: en
-icon: "⚡"
+icon: favicon.svg
 
 url: https://ansel.fyi
 baseurl: # leave blank for root
