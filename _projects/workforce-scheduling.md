@@ -17,4 +17,4 @@ A gradient-boosting classifier that predicts the best optimization algorithm giv
 
 **Stack:** Python, Scikit-learn, Pandas, NumPy
 
-**Publication:** Manalp, C. K., **Erol, A. K.**, Erol, K., & Evrendilek, C. (2024). *A Holistic Approach to Workforce Scheduling and Routing.*
+**Publication:** Manalp, C. K., **Erol, A. K.**, Erol, K., & Evrendilek, C. (2025). *A Holistic Approach to Workforce Scheduling and Routing.* Accepted to *Turkish Journal of Electrical Engineering and Computer Science* (to appear).
