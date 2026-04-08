@@ -15,9 +15,11 @@ Synapse is a two-phase retrieval and resume optimization system that improves jo
 - The system surfaces fine-grained skill and keyword alignment explanations at each step
 
 **Key results:**
-- Evaluated on CPU (Intel Xeon Gold 6226) and GPU (NVIDIA H100 HGX) backends
-- Outperforms traditional keyword-overlap and embedding-only baselines on retrieval quality
-- Generates explainable, human-readable rationale for ranking and optimization decisions
+- Weighted-average rank ensemble achieves **nDCG@10 of 0.714**, a **+31.9%** improvement over the embedding-only baseline (0.541)
+- Contrastive learning reranker alone yields +17.4% nDCG@10; LLM pairwise ranking adds +10.2%
+- GPU (H100) accelerates Phase II scoring **22× over CPU** (0.026s vs. 0.570s per query)
+- LLM-guided evolutionary resume optimization achieves a **median 62%, mean 68%, upper-quartile 92%** fitness gain over 5 generations across 100 resumes
+- Corpus: 120,000 LinkedIn job postings; 2,500 LiveCareer candidate resumes
 
 **Stack:** Python, LLMs (API), vector retrieval, evolutionary algorithms
 
