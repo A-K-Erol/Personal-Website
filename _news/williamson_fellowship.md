@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to receive the [Marshall D. Williamson Fellowship](https://www.cc.gatech.edu/college-computing-annual-awards-and-honors) from the Georgia Tech College of Computing!
+Honored to receive the [Marshall D. Williamson Fellowship](https://www.cc.gatech.edu/college-computing-annual-awards-and-honors) and the **Georgia Tech Outstanding MS Research Award** from the Georgia Tech College of Computing!

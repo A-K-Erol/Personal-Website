@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Thrilled to share two updates: I'll be joining **[Baseten](https://www.baseten.co/)** as a Forward Deployed Software Engineer this June, and **EarthSight** has been accepted to **[MLSys 2026](https://mlsys.org/)** — my first first-author conference paper!
+Thrilled to announce I'll be joining **[Baseten](https://www.baseten.co/)** as a Forward Deployed Software Engineer this June!
 
