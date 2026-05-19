@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Presented **EarthSight** as first author at the **MLSys '25 Young Professional's Symposium** in Santa Clara, CA.
+Presented **EarthSight** as first author at the **MLSys '25 Young Professionals Symposium** in Santa Clara, CA.
 

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import urllib.request; urllib.request.urlretrieve\\('https://arxiv.org/pdf/2604.02539', 'C:/Users/ansel/Downloads/synapse.pdf'\\); print\\('downloaded'\\)\")",
+      "Bash(python3 -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Bash(python3 -c \"import pdf2image; print\\('pdf2image ok'\\)\")",
+      "Bash(python3 -c \"import pdfplumber; print\\('pdfplumber ok'\\)\")",
+      "Bash(where python:*)",
+      "Bash(where py:*)",
+      "Bash(where python3.exe)",
+      "Bash(py --version)",
+      "Read(//c/Users/ansel/Downloads/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\ansel\\Downloads"
+    ]
+  }
+}
