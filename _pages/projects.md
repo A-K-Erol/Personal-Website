@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: A showcase of my work in systems, AI, and full-stack development.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [research, software]
 horizontal: false
