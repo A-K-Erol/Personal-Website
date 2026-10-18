@@ -26,7 +26,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm a FDE at Baseten with a focus on deploying real-time, high-throughput software systems at scale for interactive model serving and artificial intelligence workloads.
+I'm an FDE at Baseten with a focus on deploying real-time, high-throughput software systems at scale for interactive model serving and artificial intelligence workloads.
 
 My research at the Georgia Tech [Systems for Scalable Intelligence (SCAI) Lab](https://sites.google.com/view/divyamahajan) (advised by Dr. Divya Mahajan) centered on scaling ML inference on constrained and distributed systems, including efficient MoE model serving and edge computing on satellites. I have presented first-author work at [MLSys](https://mlsys.org/) '25 and '26, and received the **Georgia Tech Outstanding MS Research Award** and the [Marshall D. Williamson Fellowship](https://www.cc.gatech.edu/college-computing-annual-awards-and-honors) for academic excellence and effectiveness as a graduate teaching assistant for CS3600: Intro to AI.
 
